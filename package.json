@@ -1,0 +1,23 @@
+{
+  "name": "ai-shell-cmd",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Converts Natural Language input to shell commands",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azadsagar/ai-shell-cmd.git"
+  },
+  "author": "Sagar Barai| azadsagar@hotmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azadsagar/ai-shell-cmd/issues"
+  },
+  "homepage": "https://github.com/azadsagar/ai-shell-cmd#readme",
+  "dependencies": {
+    "@aws-sdk/client-bedrock-agent-runtime": "^3.839.0"
+  }
+}
