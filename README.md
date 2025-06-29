@@ -12,3 +12,13 @@ cd ai-shell-helper && npm install                               # Assuming nodej
 echo "source $HOME/ai-shell-helper/zsh_int.sh" >> ~/.zshrc      # For ZSH Shell
 echo "source $HOME/ai-shell-helper/bash_int.sh" >> ~/.bashrc    # For Bash Shell
 ```
+
+Required Environment variables
+
+```sh
+export INFERENCE_MODE="<ollama|aws_bedrock>"
+export OLLAMA_URL="http://localhost:11434"              # if INFERENCE_MODE is set to ollama
+export BEDROCK_FLOW_IDENTIFIER=<flowid or arn>
+export BEDROCK_FLOW_ALIAS=<flow version alias or arn>
+export AWS_REGION=us-east-1
+```
